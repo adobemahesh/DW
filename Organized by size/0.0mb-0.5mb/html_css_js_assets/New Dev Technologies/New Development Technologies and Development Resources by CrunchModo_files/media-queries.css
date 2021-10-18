@@ -1,0 +1,1475 @@
+/*-- RESPONSIVE --*/
+/* --------------------------------------------
+  All
+-------------------------------------------- */
+
+
+/* #Tablet & Small Desktop
+================================================== */
+
+/* Note: Design for a width of 1024px */
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Body
+/*-----------------------------------------------------------------------------------*/
+
+.wrapper {
+	width: 960px;
+}
+
+.main-content { 
+	width: 959px;
+}
+
+#content {
+	width: 629px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Menu Bar
+/*-----------------------------------------------------------------------------------*/
+
+.top-menu-right li.turn-off {
+	display: block;
+}
+
+#top-navigation .top-menu-right li .dropdown-menu.social-icons {
+	margin-left: -250px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Header Ads
+/*-----------------------------------------------------------------------------------*/
+
+.header-ads {
+	float: right;
+	width: 600px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	First - Grid Articles
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big { 
+	width: 501px;
+}
+
+.grid-big .hentry .featured-image {
+	width: 501px;
+	height: 292px;
+}
+
+.grid-big .hentry .featured-image img {
+	width: 501px;
+	height: 292px;
+}
+
+.grid-small {
+	width: 229px;
+}
+
+.grid-small .hentry .featured-image {
+    width: 229px;
+	height: 146px;
+}
+
+.grid-small .hentry .featured-image img {
+    width: 229px;
+	height: 146px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Random Article
+/*-----------------------------------------------------------------------------------*/
+
+#random-section .random-article {
+	width: 659px;
+}
+
+#random-section .random-article h4 a {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Second - Grid Articles
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big-second {
+	width: 370px;
+}
+
+.grid-big-second .hentry .featured-image {
+	width: 370px;
+}
+
+.grid-big-second .hentry .featured-image img {
+	width: 370px;
+}
+
+.grid-small-second {
+	width: 244px;
+}
+
+.grid-small-second.last {
+	padding: 0 0 30px 0;
+}
+
+.grid-small-second.last.hello-masonry {
+	padding: 0 0 0 0;
+}
+
+.grid-small-second .hentry .featured-image {
+	width: 244px;
+}
+
+.grid-small-second .hentry .featured-image img {
+	width: 244px;
+}
+
+.grid-small-second .hentry h2.post-title a {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Block Articles
+/*-----------------------------------------------------------------------------------*/
+
+.block {
+	width: 574px;
+}
+
+.block .hentry .featured-image {
+	width: 180px;
+	height: 158px;
+}
+
+.block .hentry .featured-image img {
+	width: 180px;
+	height: 158px;
+}
+
+.block .hentry .post-content-right {
+	width: 364px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Single Post
+/*-----------------------------------------------------------------------------------*/
+
+.block.loop-single .hentry .featured-image {
+	width: 574px;
+	height: 250px;
+}
+
+.block.loop-single .hentry .featured-image img {
+	width: 574px;
+	height: 250px;
+}
+
+.block.loop-single .hentry .featured-image.video {
+	width: 574px;
+	height: 324px;
+}
+
+.block.loop-single .hentry .post-content .post-content-left {
+	display: none;
+}
+
+.block.loop-single .hentry .post-content .post-content-right {
+	width: 574px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Paginaion
+/*-----------------------------------------------------------------------------------*/
+
+#post-nav {
+	width: 899px;
+}
+
+.pagination a, .pagination span {
+	padding: 6px 14px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Author
+/*-----------------------------------------------------------------------------------*/
+
+.author-info {
+    float: left;
+    width: 395px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Related Posts
+/*-----------------------------------------------------------------------------------*/
+
+.block.loop-single .hentry .related-posts ul li {
+	width: 174px;
+}
+
+
+.block.loop-single .hentry .related-posts .featured-image {
+	width: 174px;
+	height: 100px;
+}
+
+
+.block.loop-single .hentry .related-posts .featured-image img {
+	width: 174px;
+	height: 100px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Comments
+/*-----------------------------------------------------------------------------------*/
+
+#respond textarea {
+	width:550px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Page Templates
+/*-----------------------------------------------------------------------------------*/
+
+#content.full-width .block.loop-single {
+    margin: 0 25px;
+    width: 909px;
+}
+
+.error-search #searchform {
+	width: 572px;
+}
+
+.error-search #searchform input[type="text"] {
+	width: 520px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Footer 2
+/*-----------------------------------------------------------------------------------*/
+
+.footer-widgets .widget {
+	width: 195px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	End Responsive
+/*-----------------------------------------------------------------------------------*/
+
+
+}
+
+
+
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Body
+/*-----------------------------------------------------------------------------------*/
+
+.wrapper {
+	width: 699px;
+}
+
+.main-content { 
+	width: 698px;
+}
+
+#content {
+	width: 698px;
+}
+
+#sidebar {
+	display: none;
+}
+
+.footer-shadow {
+	display: none;
+}
+
+#footer { 
+	padding: 30px 0 30px 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Menu Bar
+/*-----------------------------------------------------------------------------------*/
+
+.top-menu-left li.hot-tags {
+	display: none;
+}
+
+.top-menu-right {
+	float: left;
+}
+
+.top-menu-right li.search {
+	background: none;
+	padding: 0 0 0 0;
+}
+
+#top-navigation .top-menu-right li .dropdown-menu.social-icons {
+    margin-left: -250px;
+}
+
+.top-menu-right li.turn-off {
+	display: block;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Header Ads
+/*-----------------------------------------------------------------------------------*/
+
+.header-ads {
+	display: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	First- Grid Posts
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big {
+	width: 698px;
+}
+
+.grid-big .hentry .featured-image {
+	width: 698px;
+	height: 407px;
+}
+
+.grid-big .hentry .featured-image img {
+	width: 698px;
+	height: 407px;
+}
+
+.grid-small {
+	width: 349px;
+}
+
+.grid-small .hentry .featured-image {
+	width: 349px;
+	height: 211px;
+}
+
+.grid-small .hentry .featured-image img {
+	width: 349px;
+	height: 211px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Random Article
+/*-----------------------------------------------------------------------------------*/
+
+#random-section .random-title {
+	display: none;
+}
+
+#random-section .random-article {
+	padding-right: 25px;
+	width: 648px;
+}
+
+#random-section .random-article h4 a {
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+}
+
+#random-section .random-article h4 a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Second - Grid Posts
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big-second {
+	width: 648px;
+}
+
+.grid-big-second .hentry .featured-image {
+	width: 648px;
+	height: 330px;
+}
+
+.grid-big-second .hentry .featured-image img {
+	width: 648px;
+	height: 330px;
+}
+
+.grid-small-second {
+	width: 311px;
+	margin: 0 25px 25px 25px;
+}
+
+.grid-small-second.last {
+	margin: 0 25px 25px 0;
+}
+
+.grid-small-second .hentry .featured-image {
+	width: 311px;
+}
+
+.grid-small-second .hentry .featured-image img {
+	width: 311px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Front Ads
+/*-----------------------------------------------------------------------------------*/
+
+.front-ads {
+	padding: 25px 25px 25px 25px;
+	width: 648px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Block Posts
+/*-----------------------------------------------------------------------------------*/
+
+.block {
+	width: 648px;
+	margin: 0 25px 0 25px;
+}
+
+.block .hentry .featured-image {
+	width: 200px;
+	height: 176px;
+	margin: 0 25px 0 0;
+}
+
+.block .hentry .featured-image img {
+	width: 200px;
+	height: 176px;
+}
+
+.block .hentry .post-content-right {
+	width: 423px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Singple Post
+/*-----------------------------------------------------------------------------------*/
+
+.block.loop-single .hentry .featured-image {
+	width: 648px;
+	height: 284px;
+}
+
+.block.loop-single .hentry .featured-image img {
+	width: 648px;
+	height: 284px;
+}
+
+.block.loop-single .hentry .featured-image.video {
+	width: 648px;
+	height: 365px;
+}
+
+.block.loop-single .hentry .post-content .post-content-left {
+	display: none;
+}
+
+.block.loop-single .hentry .post-content .post-content-right {
+	width: 648px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Paginaion
+/*-----------------------------------------------------------------------------------*/
+
+#post-nav {
+	width: 649px;
+	padding: 30px 25px 40px 25px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Author Box
+/*-----------------------------------------------------------------------------------*/
+
+.author-info {
+    float: left;
+    width: 466px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Related Posts
+/*-----------------------------------------------------------------------------------*/
+
+.block.loop-single .hentry .related-posts ul li {
+	width: 198px;
+}
+
+
+.block.loop-single .hentry .related-posts .featured-image {
+	width: 198px;
+}
+
+
+.block.loop-single .hentry .related-posts .featured-image img {
+	width: 198px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Comments
+/*-----------------------------------------------------------------------------------*/
+
+#respond textarea {
+	width: 624px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Page Templates
+/*-----------------------------------------------------------------------------------*/
+
+#content.full-width .block.loop-single {
+    width: 648px;
+}
+
+.error-search #searchform {
+	width: 646px;
+}
+
+.error-search #searchform input[type="text"] {
+	width: 594px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Footer 2
+/*-----------------------------------------------------------------------------------*/
+
+#main {
+	margin: 0 0 30px 0;
+}
+
+.footer-widgets .widget {
+	margin-bottom: 20px;
+	border-right: none;
+	width: 295px;
+}
+
+.footer-widgets .widget:last-child {
+	margin-bottom: 20px;
+}
+
+.footer-link-left {
+	padding: 10px 0 10px 0;
+}
+
+.footer-link-right {
+    display: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	End Responsive
+/*-----------------------------------------------------------------------------------*/
+
+
+}
+
+
+
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 479px) {
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Body
+/*-----------------------------------------------------------------------------------*/
+
+.wrapper {
+	width: 300px;
+}
+
+.main-content { 
+	width: 298px;
+}
+
+#content {
+	width: 298px;
+}
+
+.post-box-archives {
+    display: block;
+    overflow: hidden;
+    padding: 20px 20px 0 20px;
+}
+
+#sidebar {
+	display: none;
+}
+
+.footer-shadow {
+	display: none;
+}
+
+#footer { 
+	padding: 30px 0 30px 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Menu Bar
+/*-----------------------------------------------------------------------------------*/
+
+#top-navigation .top-menu-left li.small-logo {
+	display: none;
+}
+
+#top-navigation .top-menu-left li.hot-tags {
+	display: none;
+}
+
+#top-navigation .top-menu-right {
+	float: left;
+}
+
+#top-navigation .top-menu-right li.search {
+	background: none;
+	padding: 0 0 0 0;
+}
+
+#top-navigation .top-menu-right li.twitter {
+	display: none
+} 
+
+#top-navigation .top-menu-right li.share {
+	display: none
+} 
+
+#top-navigation .top-menu-right li .dropdown-menu.search {
+    width: 258px;
+	margin-left: -141px;
+}
+
+.dropdown-menu.search #searchform input[type="text"] {
+	width: 205px;
+}
+
+.top-menu-right li.turn-off {
+	display: block;
+}
+
+.top-menu-right li.turn-off a {
+	text-indent: -9999px;
+	padding: 16px 10px 16px 10px;
+	width: 21px;
+}
+
+.top-menu-right li.turn-off a span.turn-off-icon {
+	margin: -2px 0 0 4px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Header Ads
+/*-----------------------------------------------------------------------------------*/
+
+.header-ads {
+	display: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	First - Grid Posts
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big {
+	width: 298px;
+}
+
+.grid-big .hentry .featured-image {
+	width: 298px;
+	height: 174px;
+}
+
+.grid-big .hentry .featured-image img {
+	width: 298px;
+	height: 174px;
+}
+
+.grid-big .hentry h2.post-title a {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.grid-small {
+	width: 298px;
+}
+
+.grid-small .hentry .featured-image {
+    height: 174px;
+    width: 298px;
+}
+
+.grid-small .hentry .featured-image img {
+    height: 174px;
+    width: 298px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Random Article
+/*-----------------------------------------------------------------------------------*/
+
+#random-section .random-title {
+	display: none;
+}
+
+#random-section .random-article { 
+	height: auto;
+	padding: 0 20px;
+	width: 260px;
+}
+
+#random-section .random-article h4 {
+	margin: 16px 0 16px 0;
+}
+
+#random-section .random-article h4 a {
+	color: #ffffff;
+}
+
+#random-section .random-article h4 a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Second - Grid Posts
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big-second {
+	margin: 20px;
+	width: 258px;
+}
+
+.grid-big-second .hentry .featured-image {
+	width: 258px;
+	height: 128px;
+}
+
+.grid-big-second .hentry .featured-image img {
+	width: 258px;
+	height: 128px;
+}
+
+.grid-small-second {
+	margin: 0 20px 20px 20px;
+	width: 258px;
+}
+
+.grid-small-second.last {
+	margin: 0 20px 20px 20px;
+}
+
+.grid-small-second .hentry .featured-image {
+	width: 258px;
+	height: 118px;
+}
+
+.grid-small-second .hentry .featured-image img {
+	width: 258px;
+	height: 118px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Front Ads
+/*-----------------------------------------------------------------------------------*/
+
+.front-ads {
+	padding: 20px 20px 20px 20px
+	width: 258px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Block Posts
+/*-----------------------------------------------------------------------------------*/
+
+.block {
+    margin: 0 20px 0 20px;
+	width: 258px;
+}
+
+.block .hentry .featured-image {
+	width: 258px;
+	height: 227px;
+	margin: 0 0 20px 0;
+}
+
+.block .hentry .featured-image img {
+	width: 258px;
+	height: 227px;
+}
+
+.block .hentry .post-content-right {
+	width: 258px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Pagination
+/*-----------------------------------------------------------------------------------*/
+
+#post-nav {
+	padding: 30px 20px 30px 20px;
+	width: 258px;
+}
+
+.pagination a, .pagination span {
+	background: none;
+	color: #222222;
+    border-radius: 0 0 0 0;
+    display: inline-block;
+    float: left;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+.pagination .current {
+	background: none;
+	color: #46A28D;
+}
+
+.pagination a:hover {
+	background: none;
+	color: #46A28D;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Single Post
+/*-----------------------------------------------------------------------------------*/
+
+.block.loop-single .hentry .featured-image {
+    width: 258px;
+	height: 113px;
+}
+
+.block.loop-single .hentry .featured-image img {
+    width: 258px;
+	height: 113px;
+}
+
+.block.loop-single .hentry .featured-image.video {
+	width: 258px;
+	height: 145px;
+}
+
+.block.loop-single .hentry .post-content .post-content-left {
+	display: none;
+}
+
+.block.loop-single .hentry .post-content .post-content-right {
+	width: 258px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Author Box
+/*-----------------------------------------------------------------------------------*/
+
+.author-gravatar {
+	display: none;
+}
+
+.author-info {
+	width: 208px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Related Posts
+/*-----------------------------------------------------------------------------------*/
+
+.block.loop-single .hentry .related-posts ul li {
+	margin: 0 0 25px 0;
+	width: 258px;
+}
+
+.block.loop-single .hentry .related-posts .featured-image {
+	height: 125px;
+    width: 258px;
+}
+
+.block.loop-single .hentry .related-posts .featured-image img {
+	height: 125px;
+    width: 258px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Comments
+/*-----------------------------------------------------------------------------------*/
+
+#respond textarea {
+	width: 233px;
+}
+
+#respond #submit {
+	width: 258px;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.comment .children li {
+	padding-left: 0;
+}
+
+.comment .vcard {
+    width: 45px;
+}
+
+.comment-avatar {
+    width: 45px;
+}
+
+.comment-body .avatar {
+	width: 45px;
+	height: 45px;
+}
+
+.comment-content {
+    margin: 0 0 0 65px;
+}
+
+.comment-body time {
+	display: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Page Templates
+/*-----------------------------------------------------------------------------------*/
+
+#content.full-width .block.loop-single {
+	width: 258px;
+	margin: 0 20px 0 20px;
+}
+
+
+.archive-lists .recent-post-list {
+	width: 100%;
+}
+
+.archive-lists .popular-post-list {
+	width: 100%;
+}
+
+.archive-lists .categories {
+	width: 100%;
+}
+
+.archive-lists .archives {
+	width: 100%;
+}
+
+.error-search #searchform {
+	width: 256px;
+}
+
+.error-search #searchform input[type="text"] {
+	width: 202px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Review System
+/*-----------------------------------------------------------------------------------*/
+
+.uxde-user-review-criteria {
+	height: 52px;
+}
+
+span.uxde-criteria-star-under {
+	top: 40px;
+	left: 12px;
+	right: 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Footer 2
+/*-----------------------------------------------------------------------------------*/
+
+#main {
+	margin: 0 0 30px 0;
+}
+
+.footer-widgets .widget {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 0;
+	width: 300px;
+	border-right: none;
+}
+
+.footer-links {
+	height: auto;
+}
+
+.footer-link-left {
+	padding: 10px 0 10px 0;
+}
+
+.footer-link-right {
+    display: none;
+}
+
+.copyright-layout-2 .copyright-layout-2-right {
+    float: left;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	End Responsive
+/*-----------------------------------------------------------------------------------*/
+
+
+}
+
+
+
+
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Body
+/*-----------------------------------------------------------------------------------*/
+
+.wrapper {
+	width: 460px;
+}
+
+.main-content { 
+	width: 458px;
+}
+
+#content {
+	width: 458px;
+}
+
+.post-box-archives {
+    display: block;
+    overflow: hidden;
+    padding: 20px 20px 0 20px;
+}
+
+#sidebar {
+	display: none;
+}
+
+.footer-shadow {
+	display: none;
+}
+
+#footer { 
+	padding: 30px 0 30px 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Menu Bar
+/*-----------------------------------------------------------------------------------*/
+
+.top-menu-left li.small-logo {
+	display: none;
+}
+
+.top-menu-left li.hot-tags {
+	display: none;
+}
+
+.top-menu-right {
+	float: left;
+}
+
+.top-menu-right li.search {
+	background: none;
+	padding: 0 0 0 0;
+}
+
+.top-menu-right li.twitter {
+	display: none;
+}
+
+#top-navigation .top-menu-right li .dropdown-menu.share-buttons {
+	margin-left: 0;
+}
+
+#top-navigation .top-menu-right li .dropdown-menu.search {
+	width: 279px;
+}
+
+.dropdown-menu.search #searchform input[type="text"] {
+	width: 222px;
+}
+
+.top-menu-right li.share {
+	display: none;
+}
+
+.top-menu-right li.turn-off {
+	display: block;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Header Ads
+/*-----------------------------------------------------------------------------------*/
+
+.header-ads {
+	display: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	First - Grid Posts
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big {
+	width: 458px;
+}
+
+.grid-big .hentry .featured-image {
+	width: 458px;
+	height: 267px;
+}
+
+.grid-big .hentry .featured-image img {
+	width: 458px;
+	height: 267px;
+}
+
+.grid-small {
+    width: 229px;
+}
+
+.grid-small .hentry .featured-image {
+    width: 229px;
+	height: 150px;
+}
+
+.grid-small .hentry .featured-image img {
+    width: 229px;
+	height: 150px;
+}
+
+.grid-small .hentry .meta-category {
+	top: 0;
+}
+
+.grid-small .hentry h2.post-title {
+	top: 31px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Random Article
+/*-----------------------------------------------------------------------------------*/
+
+#random-section .random-title {
+	display: none;
+}
+
+#random-section .random-article {
+	padding: 0 20px 0 20px;
+	width: 418px;
+	height: auto;
+}
+
+#random-section .random-article h4 {
+	margin: 16px 0 16px 0;
+}
+
+#random-section .random-article h4 a {
+	color: #FFFFFF;
+}
+
+#random-section .random-article h4 a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Second - Grid Posts
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big-second {
+	margin: 20px 20px 20px 20px;
+	width: 418px;
+}
+
+.grid-big-second .hentry .featured-image {
+	width: 418px;
+	height: 210px;
+}
+
+.grid-big-second .hentry .featured-image img {
+	width: 418px;
+	height: 210px;
+}
+
+.grid-small-second {
+	width: 418px;
+	margin: 0 20px 20px 20px;
+}
+
+.grid-small-second.last {
+	margin: 0 20px 20px 20px;
+}
+
+.grid-small-second .hentry .featured-image {
+	width: 418px;
+	height: 192px;
+}
+
+.grid-small-second .hentry .featured-image img {
+	width: 418px;
+	height: 192px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Front Ads
+/*-----------------------------------------------------------------------------------*/
+
+.front-ads {
+	padding: 20px 20px 20px 20px;
+	width: 418px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Block Posts
+/*-----------------------------------------------------------------------------------*/
+
+.block {
+    margin: 0 20px 0 20px;
+    width: 418px;
+}
+
+.block .hentry .featured-image {
+	display: none;
+}
+
+.block .hentry .meta-category {
+	display: none;
+}
+
+.block .hentry .post-content-right {
+	width: 418px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Pagination
+/*-----------------------------------------------------------------------------------*/
+
+#post-nav {
+	padding: 30px 20px 30px 20px;
+	width: 418px;
+}
+
+.pagination a, .pagination span {
+	background: none;
+	color: #222222;
+    border-radius: 0 0 0 0;
+    display: inline-block;
+    float: left;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+.pagination .current {
+	background: none;
+	color: #46A28D;
+}
+
+.pagination a:hover {
+	background: none;
+	color: #46A28D;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Single Post
+/*-----------------------------------------------------------------------------------*/
+
+.block.loop-single .hentry .featured-image {
+	display: block;
+	width: 418px;
+	height: 183px;
+}
+
+.block.loop-single .hentry .featured-image img {
+	display: block;
+	width: 418px;
+	height: 183px;
+}
+
+.block.loop-single .hentry .featured-image.video {
+	width: 418px;
+	height: 235px;
+}
+
+.block.loop-single .hentry .post-content .post-content-left {
+	display: none;
+}
+
+.block.loop-single .hentry .post-content .post-content-right {
+	width: 418px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Author Box
+/*-----------------------------------------------------------------------------------*/
+
+.author-gravatar {
+	display: none;
+}
+
+.author-info {
+    float: left;
+    width: 368px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Related Posts
+/*-----------------------------------------------------------------------------------*/
+
+.block.loop-single .hentry .related-posts ul li {
+	width: 418px;
+	margin: 0 0 25px 0;
+}
+
+.block.loop-single .hentry .related-posts .featured-image {
+    width: 418px;
+	height: 201px;
+}
+
+.block.loop-single .hentry .related-posts .featured-image img {
+    width: 418px;
+	height: 201px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Comments
+/*-----------------------------------------------------------------------------------*/
+
+#respond textarea {
+	width: 392px;
+}
+
+.comment .children li {
+	padding-left: 0;
+}
+
+.comment .vcard {
+    width: 45px;
+}
+
+.comment-avatar {
+    width: 45px;
+}
+
+.comment-body .avatar {
+	width: 45px;
+	height: 45px;
+}
+
+.comment-content {
+    margin: 0 0 0 65px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Page Templates
+/*-----------------------------------------------------------------------------------*/
+
+#content.full-width .block.loop-single {
+	margin: 0 20px 0 20px;
+	width: 418px;
+}
+
+.archive-lists .recent-post-list {
+	width: 100%;
+}
+
+.archive-lists .popular-post-list {
+	width: 100%;
+}
+
+.archive-lists .categories {
+	width: 100%;
+}
+
+.archive-lists .archives {
+	width: 100%;
+}
+
+.error-search #searchform {
+	width: 416px;
+}
+
+.error-search #searchform input[type="text"] {
+	width: 364px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Footer 2
+/*-----------------------------------------------------------------------------------*/
+
+#main {
+	margin: 0 0 30px 0;
+}
+
+.footer-widgets .widget {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 0;
+	width: 458px;
+	border-right: none;
+}
+
+.footer-links {
+	height: auto;
+}
+
+.footer-link-left {
+	padding: 10px 0 10px 0;
+}
+
+.footer-link-right {
+    display: none;
+}
+
+.copyright-layout-2 .copyright-layout-2-right {
+    float: left;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	End Responsive
+/*-----------------------------------------------------------------------------------*/
+
+
+}

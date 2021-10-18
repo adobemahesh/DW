@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<!-- TemplateBeginEditable name="EditRegion3" -->
+<p>This is an editable region: div>p>lorem</p>
+<!-- TemplateEndEditable -->
+<p>This is not an editable region: div>p>lorem</p>
+</body>
+</html>
